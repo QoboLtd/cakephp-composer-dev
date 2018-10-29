@@ -1,0 +1,38 @@
+{
+    "name": "qobo/cakephp-composer-dev",
+    "description": "Developer requirements for CakePHP projects",
+    "keywords": ["cakephp", "project", "template", "setup", "rapid-development", "dry"],
+    "type": "metapackage",
+    "license": "MIT",
+    "homepage": "https://www.qobo.biz",
+    "authors": [
+        {
+            "name": "Qobo Ltd",
+            "email": "support@qobo.biz",
+            "homepage": "https://www.qobo.biz",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/QoboLtd/cakephp-composer-dev/issues",
+        "source": "https://github.com/QoboLtd/cakephp-composer-dev"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "require": {
+        "cakephp/bake": "^1.1",
+        "cakephp/cakephp-codesniffer": "^3.0",
+        "phpstan/phpstan": "^0.10.3",
+        "phpunit/phpunit": "^6.0",
+        "psy/psysh": "@stable",
+        "thecodingmachine/phpstan-strict-rules": "^0.10.3",
+        "timeweb/phpstan-enum": "^2.0"
+    },
+    "suggest": {
+        "ext-xdebug": "Allows code coverage reports and advanced debugging",
+        "dereuromark/cakephp-ide-helper": "After baking your code, this keeps your annotations in sync with the code evolving from there on for maximum IDE and PHPStan compatibility."
+    },
+    "prefer-stable": true
+}
