@@ -22,6 +22,7 @@
         "optimize-autoloader": true
     },
     "require": {
+        "brianium/paratest": "v1.0",
         "cakephp/bake": "^1.1",
         "cakephp/cakephp-codesniffer": "^3.0",
         "phpstan/phpstan": "^0.10.3",
