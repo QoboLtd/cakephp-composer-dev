@@ -29,7 +29,7 @@
         "phpstan/phpstan-webmozart-assert": "^0.10",
         "phpunit/phpunit": "^6.0",
         "psy/psysh": "@stable",
-        "thecodingmachine/phpstan-strict-rules": "^0.10.3",
+        "thecodingmachine/phpstan-strict-rules": "^0.11.0",
         "timeweb/phpstan-enum": "^2.0"
     },
     "suggest": {
